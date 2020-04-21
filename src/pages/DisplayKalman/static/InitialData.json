@@ -1,0 +1,84 @@
+{
+  "cmdInput": {
+    "name": "display-kalman",
+    "paras": {
+      "module": {
+        "name": "0order",
+        "a0": 1,
+        "a1": 0.02,
+        "a2": 0.0003,
+        "w": 1,
+        "as": 2
+      },
+      "Q": 100,
+      "R": 0.01,
+      "noise": 0.1,
+      "ls_wlen": 36
+    }
+  },
+  "figopt": {
+    "scales": {
+      "yAxes": [
+        {
+          "ticks": {
+            "beginAtZero": true
+          },
+          "gridLines": {
+            "display": true
+          }
+        }
+      ],
+      "xAxes": [
+        {
+          "gridLines": {
+            "display": false
+          }
+        }
+      ]
+    },
+    "legend": {
+      "display": true
+    },
+    "responsive": true,
+    "maintainAspectRatio": false
+  },
+  "msetab": {
+    "moving mean": "none",
+    "mean square": "none",
+    "kalman": "none"
+  },
+  "dsetopt": {
+    "lineTension": 0,
+    "pointHitRadius": 5,
+    "pointRadius": 1,
+    "borderWidth": 1,
+    "fill": false
+  },
+  "figsdata": [
+    {
+      "title": "original signal",
+      "chartdata": {
+        "labels": [0.0, 0.01, 0.02, 0.03, 0.04],
+        "datasets": [{}, {}]
+      }
+    },
+    {
+      "title": "prediction error of each method",
+      "chartdata": {
+        "labels": [0.0, 0.01, 0.02, 0.03, 0.04],
+        "datasets": [{}, {}, {}]
+      }
+    }
+  ],
+  "COLORS": [
+    "#4dc9f6",
+    "#f67019",
+    "#f53794",
+    "#537bc4",
+    "#acc236",
+    "#166a8f",
+    "#00a950",
+    "#58595b",
+    "#8549ba"
+  ]
+}

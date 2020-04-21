@@ -1,7 +1,7 @@
 # 一个演示卡尔曼滤波的网页
 
 > 一个单页面应用前端，可以用来演示卡尔曼滤波效果。用到了`vuejs`, `vuetify`, `chartjs`等开源工具。
-FIXME [与之配套的后端](https://github.com/WangTiantian139/A-backend-to-display-kalman-filter)
+[与之配套的后端](https://github.com/WangTiantian139/A-backend-to-display-kalman-filter)
 基于`python`，用到了`flask_sockets`提供 WebSocket 支持，同时用`numpy`完成科学运算。
 
 ## 如何使用
